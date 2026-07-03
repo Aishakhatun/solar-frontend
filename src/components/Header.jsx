@@ -125,6 +125,24 @@ export default function Header() {
                 </NavLink>
               </li>
             ))}
+            {/* Instagram Link */}
+            <li>
+              <a 
+                href="https://www.instagram.com/raj_corporation/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={`transition-colors duration-300 flex items-center hover:text-primary active:scale-95
+                  ${isSolid ? 'text-slate-600 hover:text-primary' : 'text-slate-300 hover:text-white'}
+                `}
+                aria-label="Instagram"
+              >
+                <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+            </li>
           </ul>
         </nav>
 
@@ -170,6 +188,23 @@ export default function Header() {
                   </NavLink>
                 </motion.li>
               ))}
+              {/* Instagram Mobile Link */}
+              <motion.li variants={linkVariants} className="pt-2 mt-2 border-t border-slate-100">
+                <a 
+                  href="https://www.instagram.com/raj_corporation/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2.5 py-3.5 px-4 rounded-xl font-bold text-sm uppercase tracking-wider text-slate-600 hover:bg-slate-50 hover:text-primary transition-all duration-200"
+                  onClick={closeMenu}
+                >
+                  <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                  <span>Follow Instagram</span>
+                </a>
+              </motion.li>
             </ul>
           </motion.div>
         )}
