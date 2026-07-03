@@ -223,18 +223,18 @@ export default function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, type: "spring", stiffness: 100, damping: 18 }}
-            className="lg:col-span-2 bg-gradient-to-br from-blue-50 via-sky-50/50 to-white text-slate-800 rounded-3xl p-6 sm:p-8 md:p-10 shadow-premium border border-blue-100/60 flex flex-col gap-8 justify-between relative overflow-hidden"
+            className="lg:col-span-2 bg-gradient-to-br from-slate-900 via-slate-950 to-blue-955 text-white rounded-3xl p-6 sm:p-8 md:p-10 shadow-[0_20px_50px_rgba(30,58,138,0.25)] flex flex-col gap-8 justify-between relative overflow-hidden border border-slate-800/80"
           >
             {/* Background Decorative Blur Blobs */}
-            <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-500/5 rounded-full blur-[40px] pointer-events-none" />
-            <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-amber-500/5 rounded-full blur-[40px] pointer-events-none" />
+            <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-500/20 rounded-full blur-[40px] pointer-events-none" />
+            <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-amber-500/10 rounded-full blur-[40px] pointer-events-none" />
             
             <div className="flex flex-col gap-2 relative z-10">
-              <h3 className="font-heading font-black text-2xl text-slate-800 tracking-tight flex items-center gap-2">
+              <h3 className="font-heading font-black text-2xl text-white tracking-tight flex items-center gap-2">
                 <span className="w-1.5 h-6 bg-gradient-to-t from-blue-600 to-cyan-400 rounded-full" />
                 Our Info
               </h3>
-              <p className="text-slate-500 text-xs font-semibold leading-relaxed">
+              <p className="text-slate-400 text-xs font-semibold leading-relaxed">
                 Feel free to call or visit our office for direct consultation.
               </p>
             </div>
@@ -248,7 +248,7 @@ export default function Contact() {
                   key={index}
                   whileHover={{ scale: 1.02, x: 4 }}
                   whileTap={{ scale: 0.98 }}
-                  className="flex gap-4 p-4 rounded-2xl bg-white/60 border border-white/80 hover:bg-white hover:border-blue-200/50 hover:shadow-md hover:shadow-blue-500/5 transition-all duration-300 group cursor-pointer"
+                  className="flex gap-4 p-4 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/[0.08] hover:border-white/10 hover:shadow-lg hover:shadow-blue-950/20 transition-all duration-300 group cursor-pointer"
                 >
                   <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-700 text-white flex items-center justify-center shrink-0 shadow-md shadow-blue-500/20 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
                     {item.icon}
@@ -257,7 +257,7 @@ export default function Contact() {
                     <span className="text-slate-400 font-bold text-[9px] sm:text-[10px] uppercase tracking-wider">
                       {item.label}
                     </span>
-                    <p className="text-slate-700 font-extrabold text-[11px] sm:text-[13px] mt-0.5 leading-relaxed group-hover:text-primary transition-colors duration-300 whitespace-pre-line">
+                    <p className="text-slate-200 font-extrabold text-[11px] sm:text-[13px] mt-0.5 leading-relaxed group-hover:text-white transition-colors duration-300 whitespace-pre-line">
                       {item.value}
                     </p>
                   </div>
@@ -265,17 +265,17 @@ export default function Contact() {
               ))}
             </div>
 
-            <div className="border-t border-blue-100/50 pt-6 mt-2 relative z-10 flex items-center justify-between">
+            <div className="border-t border-white/5 pt-6 mt-2 relative z-10 flex items-center justify-between">
               <div className="flex items-center gap-2.5">
                 <span className="relative flex h-2.5 w-2.5">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-450 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
                 </span>
-                <span className="text-[10px] sm:text-[11px] text-slate-500 font-bold uppercase tracking-wider">
+                <span className="text-[10px] sm:text-[11px] text-slate-400 font-bold uppercase tracking-wider">
                   Mon - Sat (9am - 7pm)
                 </span>
               </div>
-              <span className="text-[9px] bg-emerald-50 text-emerald-600 font-black uppercase tracking-widest px-2.5 py-1 rounded-full border border-emerald-200/50">
+              <span className="text-[9px] bg-emerald-500/10 text-emerald-400 font-black uppercase tracking-widest px-2.5 py-1 rounded-full border border-emerald-500/20">
                 Open Now
               </span>
             </div>
