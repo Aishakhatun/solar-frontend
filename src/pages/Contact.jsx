@@ -223,7 +223,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, type: "spring", stiffness: 100, damping: 18 }}
-            className="lg:col-span-2 bg-gradient-to-br from-slate-900 via-slate-950 to-blue-955 text-white rounded-3xl p-6 sm:p-8 md:p-10 shadow-[0_20px_50px_rgba(30,58,138,0.25)] flex flex-col gap-8 justify-between relative overflow-hidden border border-slate-800/80"
+            className="lg:col-span-2 bg-[linear-gradient(135deg,#1a2a6c_0%,#0d1b4b_40%,#060d28_100%)] text-white rounded-3xl p-6 sm:p-8 md:p-10 shadow-[0_20px_60px_rgba(26,42,108,0.45)] flex flex-col gap-8 justify-between relative overflow-hidden border border-blue-900/40"
           >
             {/* Background Decorative Blur Blobs */}
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-500/20 rounded-full blur-[40px] pointer-events-none" />
