@@ -325,7 +325,7 @@ export default function Contact() {
                 Message Sent!
               </h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-               Your solar inquiry is shining bright in our inbox...Thanks for reaching out! We'll contact you soon!
+               Your solar inquiry is shining bright in our inbox.Thanks for reaching out! We'll contact you soon!
               </p>
               <button 
                 onClick={() => setSuccess(false)}

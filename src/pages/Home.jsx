@@ -277,9 +277,9 @@ export default function Home() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
                 <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors duration-300" />
-                <div className="absolute bottom-6 right-6 bg-primary text-white p-5 sm:p-6 rounded-2xl shadow-xl flex flex-col items-center animate-float border border-yellow-400/20">
-                  <span className="text-3xl sm:text-4xl font-extrabold font-heading">7+</span>
-                  <span className="text-[10px] uppercase tracking-wider font-extrabold text-yellow-100">Years Experience</span>
+                <div className="absolute bottom-3 right-3 sm:bottom-6 sm:right-6 bg-primary text-white p-3 sm:p-6 rounded-xl sm:rounded-2xl shadow-xl flex flex-col items-center animate-float border border-yellow-400/20">
+                  <span className="text-2xl sm:text-4xl font-extrabold font-heading">7+</span>
+                  <span className="text-[8px] sm:text-[10px] uppercase tracking-wider font-extrabold text-yellow-100">Years Experience</span>
                 </div>
               </div>
             </motion.div>
