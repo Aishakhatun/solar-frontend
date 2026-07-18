@@ -4,9 +4,9 @@ import { Sun, Sparkles, Lightbulb, CheckCircle2, UserCheck, HelpCircle, ArrowRig
 import { motion } from 'framer-motion';
 
 // Local image imports
-import imgPanel from '../assets/photo/service/panel.jpg';
-import imgCleaning from '../assets/photo/service/cleaning.jpg';
-import imgLight from '../assets/photo/service/light.jpeg';
+import imgPanel from '../assets/photo/service/panel_pro.png';
+import imgCleaning from '../assets/photo/service/cleaning_pro.png';
+import imgLight from '../assets/photo/service/light_pro.png';
 import imgFeature from '../assets/photo/service/feature.png';
 import imgWaaree from '../assets/photo/service/Waaree_Logo.jpg';
 import imgGoldi from '../assets/photo/service/goldi.jpg';
@@ -176,10 +176,10 @@ export default function Services() {
                 <h3 className="text-2xl font-heading font-bold text-slate-800 mb-3">{brand.name}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed mb-8">{brand.desc}</p>
               </div>
-              <motion.div whileTap={{ scale: 0.98 }} className="w-full">
+              <motion.div whileTap={{ scale: 0.98 }} className="w-full flex justify-center">
                 <Link 
                   to={`/brand/${brand.id}`} 
-                  className={`btn btn-outline ${brand.btnColor} hover:text-white w-full py-3 rounded-xl transition-all duration-300 font-bold text-sm block`}
+                  className={`btn btn-outline ${brand.btnColor} hover:text-white w-1/2 py-2.5 rounded-xl transition-all duration-300 font-bold text-xs flex justify-center items-center`}
                 >
                   Learn Specifications
                 </Link>

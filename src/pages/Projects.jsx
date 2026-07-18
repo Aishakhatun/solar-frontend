@@ -31,81 +31,80 @@ const projectsList = [
   {
     id: 1,
     category: 'commercial',
-    title: 'Industrial Factory Rooftop Setup',
+    title: 'Vadilal',
     image: pc1,
-    capacity: '150 kWp',
+    capacity: '50 kWp',
     location: 'Himatnagar, Gujarat'
   },
   {
     id: 2,
     category: 'commercial',
-    title: 'Corporate Office Solar Integration',
+    title: 'Sabar_Agro',
     image: pc2,
-    capacity: '80 kWp',
-    location: 'Ahmedabad, Gujarat'
+    capacity: '150 kWp',
+    location: 'Himatnagar, Gujarat'
   },
   {
     id: 3,
-    category: 'residential',
-    title: 'Off-grid Modern Villa System',
+    category: 'commercial',
+    title: 'Harsoliya_Brothers',
     image: pc3,
-    capacity: '15 kWp',
-    location: 'Idar, Gujarat'
+    capacity: '25 kWp',
+    location: 'Gandhinagar, Gujarat'
   },
   {
     id: 4,
-    category: 'commercial',
-    title: 'Warehouse Solar Canopy Layout',
+    category: 'residential',
+    title: 'Radhe-govind Society',
     image: pc4,
-    capacity: '200 kWp',
-    location: 'Mehsana, Gujarat'
+    location: 'Himatnagar, Gujarat'
   },
   {
     id: 5,
     category: 'commercial',
-    title: 'Retail Mall Green Energy Plan',
+    title: 'Hero-MotoCorp.',
     image: pc5,
-    capacity: '320 kWp',
-    location: 'Gandhinagar, Gujarat'
+    capacity: '25 kWp',
+    location: 'Himatnagar, Gujarat'
   },
   {
     id: 6,
-    category: 'residential',
-    title: 'Net-metered Suburban Home Rooftop',
+    category: 'Commercial',
+    title: 'Jumma-Masjid',
     image: pc6,
-    capacity: '10 kWp',
-    location: 'Prantij, Gujarat'
+    capacity: '20 kWp',
+    location: 'Himatnagar, Gujarat'
   },
-  {
-    id: 7,
-    category: 'commercial',
-    title: 'Cold Storage Solar Power plant',
-    image: pc7,
-    capacity: '120 kWp',
-    location: 'Talod, Gujarat'
-  },
+  // {
+  //   id: 7,
+  //   category: 'commercial',
+  //   title: 'Cold Storage Solar Power plant',
+  //   image: pc7,
+  //   capacity: '120 kWp',
+  //   location: 'Talod, Gujarat'
+  // },
   {
     id: 8,
-    category: 'residential',
-    title: 'Rooftop System with Battery Backup',
+    category: 'Commercial',
+    title: 'Masjid',
     image: pc8,
-    capacity: '8 kWp',
+    // capacity: '15 kWp',
     location: 'Himatnagar, Gujarat'
   },
   {
     id: 9,
-    category: 'residential',
-    title: 'Eco-Friendly Farmhouse Panels',
+    category: 'commercial',
+    title: 'TATA Mototrs',
     image: pc9,
-    capacity: '12 kWp',
-    location: 'Khedbrahma, Gujarat'
+    capacity: '25 kWp',
+    location: 'Gandhinagar, Gujarat'
   },
   {
     id: 10,
-    category: 'commercial',
-    title: 'Commercial Showroom Rooftop',
+    category: 'Commercial',
+    title: 'Khushboo Agro Industries',
     image: pc10,
-    capacity: '45 kWp',
+    capacity: '284 kWp',
     location: 'Modasa, Gujarat'
   },
   {
@@ -114,103 +113,101 @@ const projectsList = [
     title: 'Residential Apartment Rooftop',
     image: pc11,
     capacity: '25 kWp',
-    location: 'Vadodara, Gujarat'
+    location: 'Himatnagar, Gujarat'
   },
   {
     id: 12,
-    category: 'commercial',
-    title: 'Textile Factory Solar Grid',
+    category: 'residential',
+    title: 'Residential Society',
     image: pc12,
-    capacity: '400 kWp',
-    location: 'Surat, Gujarat'
+    capacity: '50 kWp',
+    location: 'Himatnagar, Gujarat'
   },
   {
     id: 13,
     category: 'commercial',
-    title: 'Agricultural Solar Water Pump',
+    title: 'Agro Industries',
     image: pc13,
-    capacity: '30 kWp',
-    location: 'Rajkot, Gujarat'
+    capacity: '284 kWp',
+    location: 'Himatnagar, Gujarat'
   },
   {
     id: 14,
     category: 'residential',
     title: 'Modern Duplex Rooftop Solar',
     image: pc14,
-    capacity: '6 kWp',
+    // capacity: '6 kWp',
     location: 'Himatnagar, Gujarat'
   },
   {
     id: 15,
     category: 'commercial',
-    title: 'Solar Carport Canopy',
+    title: 'Vadilal Cold Storage',
     image: pc15,
     capacity: '50 kWp',
-    location: 'Ahmedabad, Gujarat'
+    location: 'Himatnagar, Gujarat'
   },
   {
     id: 16,
-    category: 'residential',
-    title: 'Eco Villa Rooftop Array',
+    category: 'commercial',
+    title: 'Yashvi Agro Industries',
     image: pc16,
-    capacity: '18 kWp',
-    location: 'Idar, Gujarat'
+    capacity: '40 kWp',
+    location: 'Himatnagar, Gujarat'
   },
   {
     id: 17,
     category: 'commercial',
-    title: 'School Building Solar Project',
+    title: 'Sun Roto printpack',
     image: pc17,
-    capacity: '75 kWp',
-    location: 'Mehsana, Gujarat'
+    capacity: '100 kWp',
+    location: 'Himatnagar, Gujarat'
   },
   {
     id: 18,
-    category: 'residential',
-    title: 'Off-grid Rural Home Power',
+    category: 'commercial',
+    title: 'ZamZam Traders',
     image: pc18,
-    capacity: '5 kWp',
-    location: 'Khedbrahma, Gujarat'
+    capacity: '30 kWp',
+    location: 'Himatnagar, Gujarat'
   },
   {
     id: 19,
     category: 'commercial',
-    title: 'Dairy Plant Rooftop Setup',
+    title: 'Indian-Oil petrolPump',
     image: pc19,
-    capacity: '180 kWp',
     location: 'Himatnagar, Gujarat'
   },
   {
     id: 20,
-    category: 'residential',
-    title: 'Luxury Penthouse Solar System',
+    category: 'commercial',
+    title: 'Sun Roto',
     image: pc20,
-    capacity: '14 kWp',
-    location: 'Gandhinagar, Gujarat'
+    capacity: '100 kWp',
+    location: 'Himatnagar, Gujarat'
   },
   {
     id: 21,
-    category: 'commercial',
-    title: 'Hospital Emergency Power Backup',
+    category: 'residential',
+    title: 'Residential Apartment',
     image: pc21,
     capacity: '100 kWp',
-    location: 'Modasa, Gujarat'
+    location: 'Himatnagar, Gujarat'
   },
-  {
-    id: 22,
-    category: 'residential',
-    title: 'Stand-alone Society Solar Grid',
-    image: pc22,
-    capacity: '50 kWp',
-    location: 'Prantij, Gujarat'
-  },
+  // {
+  //   id: 22,
+  //   category: 'residential',
+  //   title: 'Stand-alone Society Solar Grid',
+  //   image: pc22,
+  //   capacity: '50 kWp',
+  //   location: 'Prantij, Gujarat'
+  // },
   {
     id: 23,
     category: 'commercial',
-    title: 'Agro-Processing Solar Plant',
+    title: 'RAJ-Motors',
     image: pc23,
-    capacity: '90 kWp',
-    location: 'Talod, Gujarat'
+    location: 'Himatnagar, Gujarat'
   }
 ];
 
@@ -339,14 +336,13 @@ export default function Projects() {
                       <Eye size={18} />
                     </div>
                     <div className="flex flex-col gap-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                      <div className="flex items-center gap-1.5 text-primary text-xs font-bold uppercase">
-                        <Zap size={14} />
-                        <span>{project.capacity} System</span>
-                      </div>
-                      <div className="flex items-center gap-1.5 text-slate-300 text-xs font-semibold">
-                        <MapPin size={14} className="text-secondary" />
-                        <span>{project.location}</span>
-                      </div>
+                      {project.capacity && (
+                        <div className="flex items-center gap-1.5 text-primary text-xs font-bold uppercase">
+                          <Zap size={14} />
+                          <span>{project.capacity}</span>
+                        </div>
+                      )}
+
                     </div>
                   </div>
                 </div>
@@ -355,7 +351,9 @@ export default function Projects() {
                   <h3 className="text-lg font-heading font-bold text-slate-800 mb-1 group-hover:text-primary transition-colors duration-300">
                     {project.title}
                   </h3>
-                  <p className="text-slate-400 text-xs font-semibold uppercase tracking-wider mt-1">{project.capacity} Capacity</p>
+                  {project.capacity && (
+                    <p className="text-slate-400 text-xs font-semibold uppercase tracking-wider mt-1">{project.capacity} Capacity</p>
+                  )}
                 </div>
               </motion.div>
             ))}
@@ -371,98 +369,73 @@ export default function Projects() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-slate-950/98 backdrop-blur-md p-4 sm:p-6 gap-3 sm:gap-5"
+            transition={{ duration: 0.4 }}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/80 backdrop-blur-xl p-2 sm:p-8 md:p-12"
             onClick={handleClose}
           >
-            {/* Top Bar (Responsive positioning and spacing) */}
-            <div className="w-full max-w-4xl flex justify-between items-center z-10 text-white mt-1 px-1">
-              <span className="text-xs sm:text-sm font-bold tracking-wider bg-slate-900/80 backdrop-blur-md px-3 py-1.5 sm:px-4 sm:py-2 rounded-full border border-white/10 shadow-lg">
-                {selectedProjectIndex + 1} / {filteredProjects.length}
+            {/* Top Bar (Floating) */}
+            <div className="absolute top-6 left-0 right-0 px-6 sm:px-12 flex justify-between items-center z-50 pointer-events-none">
+              <span className="text-sm font-bold tracking-widest bg-white/10 backdrop-blur-md px-5 py-2.5 rounded-full border border-white/20 shadow-2xl text-white pointer-events-auto">
+                {selectedProjectIndex + 1} <span className="text-white/40">/</span> {filteredProjects.length}
               </span>
               <button
                 onClick={handleClose}
-                className="p-2 sm:p-3 rounded-full bg-slate-900/80 backdrop-blur-md border border-white/10 hover:bg-slate-800 hover:text-primary transition-all duration-300 text-white shadow-lg active:scale-95"
+                className="p-3 sm:p-4 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white hover:text-slate-900 transition-all duration-300 text-white shadow-2xl active:scale-90 pointer-events-auto group"
               >
-                <X size={18} className="sm:hidden" />
-                <X size={22} className="hidden sm:block" />
+                <X size={24} className="group-hover:rotate-90 transition-transform duration-300" />
               </button>
             </div>
 
-            {/* Main Content Area (Flexible heights for mobile/desktop to prevent clipping) */}
-            <div 
-              className="relative max-w-4xl w-full flex-1 min-h-0 flex items-center justify-center"
-              onClick={(e) => e.stopPropagation()}
+            {/* Navigation Left */}
+            <button
+              onClick={(e) => { e.stopPropagation(); handlePrev(); }}
+              className="absolute left-2 sm:left-8 top-1/2 -translate-y-1/2 z-40 p-4 rounded-full bg-white/5 hover:bg-white/20 backdrop-blur-md border border-white/10 hover:border-white/30 transition-all duration-300 text-white shadow-2xl active:scale-90"
             >
-              {/* Prev Button (Scaled and styled for touch/hover) */}
-              <button
-                onClick={handlePrev}
-                className="absolute left-1 sm:left-4 z-10 p-2 sm:p-3.5 rounded-full bg-slate-900/60 backdrop-blur-md border border-white/10 hover:bg-slate-800 hover:text-primary active:scale-90 transition-all duration-300 text-white shadow-xl"
-              >
-                <ChevronLeft size={18} className="sm:hidden" />
-                <ChevronLeft size={24} className="hidden sm:block" />
-              </button>
+              <ChevronLeft size={32} />
+            </button>
 
-              {/* Main Image with swipe/drag support for mobile */}
-              <motion.div
-                key={selectedProjectIndex}
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                transition={{ duration: 0.25 }}
-                drag="x"
-                dragConstraints={{ left: 0, right: 0 }}
-                dragElastic={0.4}
-                onDragEnd={(e, info) => {
-                  if (info.offset.x < -60) {
-                    handleNext();
-                  } else if (info.offset.x > 60) {
-                    handlePrev();
-                  }
-                }}
-                className="w-full h-full flex items-center justify-center p-1 sm:p-2 cursor-grab active:cursor-grabbing touch-pan-y"
-              >
-                <img
-                  src={filteredProjects[selectedProjectIndex].image}
-                  alt={filteredProjects[selectedProjectIndex].title}
-                  className="max-w-full max-h-full object-contain rounded-xl sm:rounded-2xl shadow-2xl border border-white/10 pointer-events-none select-none"
-                />
-              </motion.div>
+            {/* Navigation Right */}
+            <button
+              onClick={(e) => { e.stopPropagation(); handleNext(); }}
+              className="absolute right-2 sm:right-8 top-1/2 -translate-y-1/2 z-40 p-4 rounded-full bg-white/5 hover:bg-white/20 backdrop-blur-md border border-white/10 hover:border-white/30 transition-all duration-300 text-white shadow-2xl active:scale-90"
+            >
+              <ChevronRight size={32} />
+            </button>
 
-              {/* Next Button (Scaled and styled for touch/hover) */}
-              <button
-                onClick={handleNext}
-                className="absolute right-1 sm:right-4 z-10 p-2 sm:p-3.5 rounded-full bg-slate-900/60 backdrop-blur-md border border-white/10 hover:bg-slate-800 hover:text-primary active:scale-90 transition-all duration-300 text-white shadow-xl"
-              >
-                <ChevronRight size={18} className="sm:hidden" />
-                <ChevronRight size={24} className="hidden sm:block" />
-              </button>
-            </div>
-
-            {/* Bottom Description Area (Responsive layout and typography) */}
+            {/* Main Image Container */}
             <motion.div
-              key={`desc-${selectedProjectIndex}`}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 10 }}
-              transition={{ duration: 0.25 }}
-              className="max-w-xl w-full bg-slate-900/70 backdrop-blur-md border border-white/10 p-4 sm:p-6 rounded-xl sm:rounded-2xl text-center text-white flex flex-col items-center gap-2 sm:gap-3 shadow-2xl"
+              key={selectedProjectIndex}
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+              className="relative w-full max-w-6xl h-full max-h-[85vh] rounded-3xl overflow-hidden shadow-2xl shadow-black/50 border border-white/10 bg-slate-950 flex items-center justify-center group"
               onClick={(e) => e.stopPropagation()}
             >
-              <span className="px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full bg-primary/10 text-primary font-bold text-[9px] sm:text-[10px] uppercase tracking-wider border border-primary/20">
-                {filteredProjects[selectedProjectIndex].category}
-              </span>
-              <h2 className="text-base sm:text-xl md:text-2xl font-heading font-black tracking-tight leading-snug">
-                {filteredProjects[selectedProjectIndex].title}
-              </h2>
-              <div className="flex items-center gap-4 sm:gap-6 mt-0.5 sm:mt-1 text-slate-450 text-[11px] sm:text-sm">
-                <div className="flex items-center gap-1 sm:gap-1.5">
-                  <Zap size={14} className="text-primary sm:w-4 sm:h-4" />
-                  <span className="font-bold">{filteredProjects[selectedProjectIndex].capacity} Capacity</span>
-                </div>
-                <div className="flex items-center gap-1 sm:gap-1.5">
-                  <MapPin size={14} className="text-secondary sm:w-4 sm:h-4" />
-                  <span className="font-semibold">{filteredProjects[selectedProjectIndex].location}</span>
-                </div>
+              <img
+                src={filteredProjects[selectedProjectIndex].image}
+                alt={filteredProjects[selectedProjectIndex].title}
+                className="w-full h-full object-contain sm:object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+              />
+              
+              {/* Glassmorphism Info Overlay at the bottom */}
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent pt-32 pb-8 sm:pb-12 px-6 sm:px-12 flex flex-col items-start justify-end transform transition-transform duration-500">
+                <span className="px-4 py-1.5 rounded-full bg-primary text-slate-900 font-bold text-xs sm:text-sm uppercase tracking-widest shadow-lg shadow-primary/30 mb-4 inline-block">
+                  {filteredProjects[selectedProjectIndex].category}
+                </span>
+                
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-black text-white tracking-tight mb-3 leading-tight drop-shadow-md">
+                  {filteredProjects[selectedProjectIndex].title}
+                </h2>
+                
+                {filteredProjects[selectedProjectIndex].capacity && (
+                  <div className="flex items-center gap-2 text-white/90 bg-white/10 backdrop-blur-md px-4 py-2 rounded-xl border border-white/10 shadow-inner mt-2">
+                    <Zap size={18} className="text-primary" />
+                    <span className="font-bold text-sm sm:text-base tracking-wide">
+                      {filteredProjects[selectedProjectIndex].capacity} System Capacity
+                    </span>
+                  </div>
+                )}
               </div>
             </motion.div>
           </motion.div>
