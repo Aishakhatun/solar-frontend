@@ -325,7 +325,7 @@ export default function Contact() {
                 Message Sent!
               </h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                Your inquiry details have been saved successfully in our MongoDB database and our administration has been notified.
+               Your solar inquiry is shining bright in our inbox! <br /> for reaching out! Your solar inquiry is on its way to us. We'll contact you soon.
               </p>
               <button 
                 onClick={() => setSuccess(false)}
